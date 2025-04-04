@@ -1,0 +1,87 @@
+#accueil{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800vh;
+    margin: 0;
+    background-color: beige;
+}
+
+.conteneur{
+
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 375px;
+    height: 818px ;
+    
+}
+
+.image{
+    width: 100%;
+   /* padding: 35px;*/
+    
+}
+ h2{
+    font-size: 35px;
+    
+ }
+ p{
+    font-size: 22px;
+ }
+
+ .btn{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+ }
+
+ .btn:hover{
+    background-color: gray;
+ }
+
+ /* la page cv*/
+
+ #cv{
+    background-color:lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+ }
+ .container{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+ }
+.container .gauche{
+
+   position: relative; 
+   background-color: gray;
+   padding: 40px;
+   margin: 20px;
+}
+.container .droite{
+    position: relative; 
+    background-color: white; 
+   padding: 40px;
+
+}
+.container .dessus{
+    background-color: black;
+    position: relative;
+    padding: 40px;
+    
+
+}
