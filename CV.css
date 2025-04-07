@@ -1,12 +1,15 @@
 body{
 
     background-color:lightblue;
+    margin: 0;
+    padding: 0;
+
 }
  #container{
-    width: 375px;
-    height: 700px;
+    width: 595px;
+    height: 842px;
     background-color: white;
-    margin-left: 40%;
+    margin-left: 5%;
  }
  #gauche{
     width: 30%;
@@ -16,7 +19,7 @@ body{
  }
  #gauche2{
     width: 100%;
-    height: 23%;
+    height: 25%;
     background-color: black;
     border-radius: 0px 0px 80px 80px;
  }
@@ -24,29 +27,29 @@ body{
     width: 90%;
     height: 50%;
     background-color: black;
-    margin-top: 168%;
+    margin-top: 118%;
     margin-left: 5%;
     border-radius: 80px 80px 0px 0px ;
  }
  #pre{
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10%;
     position: relative;
-    bottom: -9px;
+    bottom: -15px;
  }
  #p{
     color: white;
-    font-size: 9px ;
-    margin-left: 20%;
+    font-size: 13px ;
+    margin-left: 25%;
     position: relative;
     bottom: -6px;
 
  }
  #image{
-    width: 90%;
-    height: 63%;
-    margin-left: 5px;
+    width: 86%;
+    height: 62%;
+    margin-left: 12px;
     position: relative;
     bottom: -12px;
 
@@ -54,122 +57,124 @@ body{
  #cont{
   position: relative;
   bottom: 618px;
-  width:  25%;
-  height: 10%;
-  margin-left: 5px;
+  width:  18%;
+  height: 30%;
+  margin-left: 20px;
  }
  #inf{
-    font-size: 9px ;
+    font-size: 12px ;
     position: relative;
-    bottom: 648px;
-    margin-left: 32%;
+    bottom: 653px;
+    margin-left: 33%;
     
  }
  #tel{
   position: relative;
   bottom: 650px;
-  margin-left: 6px;
+  width:  17%;
+  margin-left: 20px;
  }
  #num{
     position: relative;
-    bottom: 684px;
-    font-size: 10px;
-    margin-left: 32px;
+    bottom: 689px;
+    font-size: 12px;
+    margin-left: 53px;
  }
  #mail{
     position: relative;
     bottom: 683px;
     width: 16%;
-    margin-left: 10px;
+    margin-left: 20px;
 
  }
  #email{
     position: relative;
-    bottom: 713px;
-    font-size: 10px;
-    margin-left: 35px;
+    bottom: 719px;
+    font-size: 12px;
+    margin-left: 55px;
  }
  #adress{
     position: relative;
     bottom: 715px;
-    margin-left: 6px;
+    margin-left: 20px;
+    width: 16%;
  }
  #res{
     position: relative;
-    bottom: 745px;
-    font-size: 10px;
-    margin-left: 35px;
+    bottom: 751px;
+    font-size: 12px;
+    margin-left: 55px;
  }
 #chap{
     position: relative;
-    bottom: -25px;
-    width: 25%;
-    margin-left: 10px;
+    bottom: -40px;
+    width: 22%;
+    margin-left: 15px;
 }
 #educ{
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 37%;
     position: relative;
-    bottom: 7px;
+    bottom: 2px;
 
 }
 #ista{
     color: white;
-    font-size: 9px;
-    margin-left: 5%;
+    font-size: 12px;
+    margin-left: 7%;
     position: relative;
-    bottom: 6px;
+    bottom: 4px;
 
 
 }
 #his{
     color: white;
-    font-size: 8px ;
-    margin-left: 5%;
+    font-size: 11px ;
+    margin-left: 7%;
     position: relative;
     bottom: 9px;
 
 }
 #l2{
     color: white;
-    font-size: 9px;
+    font-size: 10px;
     position: relative;
     bottom: 12px;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 #bac{
     color: white;
-    font-size: 9px;
+    font-size: 10px;
     position: relative;
     bottom: 14px;
-    margin-left: 5%;
+    margin-left: 7%;
 
 }
 #ref{
     color: white;
     width: 17%;
-    margin-left: 6px;
+    margin-left: 11px;
     position: relative;
-    bottom: 14px;
+    bottom: 10px;
 }
 #ref1{
     color: white;
-    font-size: 9px;
+    font-size: 12px;
     position: relative;
-    bottom: 41px;
-    margin-left: 30px;
+    bottom: 45px;
+    margin-left: 45px;
 }
 #ref2{
     color: white;
-    font-size: 9px;
-    margin-left: 6px;
+    font-size: 12px;
+    margin-left: 11px;
     position: relative;
     bottom: 40px;
 }
 #section{
     position: relative;
-    bottom: -89px;
+    bottom: -10px;
 }
 #propos{
     position: relative;
@@ -184,19 +189,231 @@ body{
 #plus{
     position: relative;
     bottom:  730px;
-    font-size: 12px;
-    width: 50%;
+    font-size: 15px;
+    width: 60%;
     margin-left: 150px;
 }
 #exp{
     position: relative;
     bottom: 730px; 
-    margin-left: 142px;
+    margin-left: 143px;
 }
 #ref3{
     position: relative;
     bottom: 775px;
-    font-size: 13px;
-    margin-left: 177px;
+    font-size: 16px;
+    margin-left: 179px;
 
+}
+#ref4{
+    position: relative;
+    bottom:  780px;
+    font-size: 15px;
+    width: 60%;
+    margin-left: 150px;
+}
+#comp{
+    position: relative;
+    bottom: 780px; 
+    margin-left: 142px;
+}
+#cmp{
+    position: relative;
+    bottom: 825px;
+    margin-left: 184px;
+}
+#ref5{
+    position: relative;
+    bottom: 830px;
+    margin-left: 145px;
+    font-size: 12px;
+}
+
+.bare-competence{
+    display: flex;
+    margin-left: 7%;
+
+}
+
+.bare1, .bare2{
+    width: 40px;
+    height: 8px;
+    position: relative;
+    bottom: 831px;
+    background-color: black
+}
+.bare2{
+    width: 15px;
+    background-color: #D9D9D9;
+}
+.competence{
+    
+    display: flex;
+    align-items: center;
+}
+#ref6{
+    position: relative;
+    bottom: 840px;
+    margin-left: 145px;
+    font-size: 12px;
+}
+.bare-competence1 .bare3, .bare4{
+    width: 30px;
+    height: 8px;
+    position: relative;
+    bottom: 840px;
+    
+    background-color: black
+}
+
+.bare4{
+    width: 25px;
+    background-color: #D9D9D9;
+}
+.bare-competence1{
+    display: flex;
+    margin-left: 3%;
+}
+#ref7{
+    position: relative;
+    bottom: 850px;
+    margin-left: 145px;
+    font-size: 12px;
+}
+.bare-competence2 .bare5, .bare6{
+    width: 25px;
+    height: 8px;
+    position: relative;
+    bottom: 850px;
+    background-color: black
+}
+
+.bare6{
+    width: 30px;
+    background-color: #D9D9D9;
+}
+.bare-competence2{
+    display: flex;
+    margin-left: 8%;
+}
+#langue{
+    position: relative;
+    bottom: 845px;
+    margin-left: 142px;
+}
+#lang{
+    position: relative;
+    bottom:  888px;   
+    margin-left: 184px;
+}
+#ref8{
+    position: relative;
+    bottom: 895px;
+    margin-left: 145px;
+    font-size: 12px;
+}
+.bare-competence3 .bare7, .bare8{
+    width: 40px;
+    height: 8px;
+    position: relative;
+    bottom: 895px;
+    background-color: black
+}
+
+.bare-competence3{
+    display: flex;
+    margin-left: 4%;
+}
+#ref9{
+    position: relative;
+    bottom: 900px;
+    margin-left: 145px;
+    font-size: 12px;
+}
+.bare-competence4 .bare9, .bare10{
+    width: 25px;
+    height: 8px;
+    position: relative;
+    bottom: 900px;
+    background-color: black;
+}
+
+.bare10{
+    width: 54px;
+    background-color: #D9D9D9;
+}
+.bare-competence4{
+    display: flex;
+    margin-left: 5%;
+}
+#loisir{
+    position: relative;
+    bottom: 895px;
+    margin-left: 145px;
+    width: 7%;
+}
+.points .point1{
+    width: 10px;
+    height: 8px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    position: relative;
+    bottom: 885px;
+}
+.points{
+    display: flex;
+    margin-left: 30%;
+}
+
+#mu{
+    position: relative;
+    bottom: 912px;
+    margin-left: 174px;
+    font-size: 15px;
+}
+
+.points .point2{
+    width: 10px;
+    height: 8px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    position: relative;
+    bottom: 900px;
+    
+}
+#vo{
+    position: relative;
+    bottom: 927px;
+    margin-left: 174px;
+    font-size: 15px;
+}
+#section1{
+    margin-left: 15%;
+    position: relative;
+    bottom: 135px;
+
+}
+#btn1{
+    position: relative;
+    bottom: 1025px;
+    margin-left: 235px;
+    height: 10%;
+}
+#btn2{
+    position: relative;
+    bottom: 1045px;
+    margin-left: 380px;
+    height: 10%;
+}
+#btn2{
+    position: relative;
+    bottom: 1045px;
+    margin-left: 380px;
+    height: 10%;
+}
+#btn3{
+    position: relative;
+    bottom: 1020px;
+    margin-left: 300px;
+    height: 10%;
 }
