@@ -842,7 +842,7 @@ html , body{
 
 
  /* ----------------------------------------------------------------------------- */
-@media (max-width:795px) {
+@media   (max-width:795px)  {
     body{
         width: 100vw;
         display: flex;
@@ -857,6 +857,158 @@ html , body{
         margin: 0;
 
      }
+     #info{
+        position: relative;
+        bottom: 3.5%;
+     }
+     #inf {
+        position: absolute;
+        bottom: 772px;
+        font-size: medium;
+        font-size: 13px;
+        margin-left: 42px;
+    }
+    #cont {
+        margin-right: 111px;
+        position: absolute;
+        bottom: 775px;
+        width: 23%;
+    }
+    }
+    @media (max-width:545px) {
+        #pre {
+            color: white;
+            font-size: 12px;
+        }
+        #p {
+            color: white;
+            font-size: 12px;
+            position: relative;
+            top: -6%;
+        }
+        #tel {
+            position: absolute;
+            bottom: 729px;
+            margin-right: 66%;
+            width: 20%;
+        }
+        #num {
+            position: absolute;
+            bottom: 722px;
+            margin-left: 20%;
+            font-size: 13px;
+        }
+        #mail {
+            position: absolute;
+            bottom: 692px;
+            margin-right: 65%;
+            width: 20%;
+        }
+        #email {
+            position: absolute;
+            bottom: 686px;
+            margin-left: 26%;
+            font-size: 12px;
+        }
+        #adress {
+            position: absolute;
+            bottom: 650px;
+            margin-right: 66%;
+            width: 20%;
+        }
+        #res {
+            position: absolute;
+            bottom: 641px;
+            margin-left: 19%;
+            font-size: 13px;
+        }
+        #info {
+            position: relative;
+            margin-top: 5%;
+        }
+        #ref2 {
+            position: absolute;
+            bottom: 243px;
+            margin-left: 7%;
+            color: white;
+            font-size: 61%;
+        }
+        #ref1 {
+            position: absolute;
+            bottom: 312px;
+            margin-left: 27%;
+            color: white;
+            font-size: 12px;
+        }
+        #ref {
+            position: absolute;
+            bottom: 321px;
+            width: 16%;
+            margin-left: 6%;
+        }
+        #bac {
+            position: relative;
+            bottom: 88px;
+            margin-left: 6%;
+            color: white;
+            font-size: 12px;
+        }
+        #l2 {
+            position: absolute;
+            bottom: 400px;
+            margin-left: 6%;
+            color: white;
+            font-size: 11px;
+        }
+        #his {
+            position: absolute;
+            bottom: 445px;
+            margin-left: 6%;
+            color: white;
+            font-size: 11px;
+        }
+        #ista {
+            position: absolute;
+            bottom: 477px;
+            margin-left: 5%;
+            color: white;
+            font-size: 10px;
+        }
+        #educ {
+            margin-left: 32%;
+            position: absolute;
+            bottom: 507px;
+            color: white;
+            font-size: 11px;
+        }
+        #chap {
+            position: absolute;
+            bottom: 509px;
+            width: 23%;
+            margin-left: 6%;
+        }
+        #inf {
+            position: absolute;
+            bottom: 775px;
+            font-size: medium;
+            font-size: 10px;
+            margin-left: 26px;
+        }
+        #cont {
+            margin-right: 94px;
+            position: absolute;
+            bottom: 775px;
+            width: 21%;
+        }
+        #lang {
+            position: relative;
+            bottom: 175px;
+            margin-left: 13%;
+            font-size: 18px;
+        }
+
+
+        
     }
     
  /* ---------------------------------------------------------------------------------- */
