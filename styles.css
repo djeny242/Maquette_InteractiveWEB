@@ -3,8 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800vh;
-    margin: 0;
     background-color: beige;
 }
 
@@ -16,11 +14,10 @@
     width: 375px;
     height: 818px ;
     
+    
 }
-
 .image{
     width: 100%;
-   /* padding: 35px;*/
     
 }
  h2{
@@ -44,5 +41,11 @@
  .btn:hover{
     background-color: gray;
  }
+ .section1{
+  position: relative;
+  bottom: -7%;
 
- /* la page cv*/
+
+ }
+
+ 
