@@ -460,6 +460,8 @@ html , body{
 #section1{
     width: 60%;
     height: 100%;
+    margin-top: 30px;
+    margin-left: 3%;
    
 }
  #gauche2{
@@ -483,8 +485,8 @@ html , body{
     font-size: 13px;
  }
  #lebas{
-   /* width: 100%;*/
-    background-color: beige;
+   height: 52%;
+    background-color: black;
     border-radius: 100px 100px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -508,8 +510,191 @@ html , body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 0px; 
  }
+ #cont{
+  /* position: absolute;
+  bottom: 618px;
+  
+  margin-left: 20px; */
+
+    margin-left: -100px;
+    position: absolute;
+    bottom: 770px;
+    width: 25%;
+ }
+ #inf{
+    position: absolute;
+    bottom: 774px;
+    font-size: medium;
+    font-size: 13px;  
+    margin-left: 60px;
+
+ }
+ #tel{
+    position: absolute;
+    bottom: 720px;
+    margin-right: 60%;
+    width: 20%;
+ }
+ #num{
+    position: absolute;
+    bottom: 715px;
+    margin-left: 20%;
+ }
+ #mail{
+    position: absolute;
+    bottom: 680px;
+    margin-right: 60%;
+ }
+ #email{
+    position: absolute;
+    bottom: 667px;
+    margin-left:  25%;
+
+ }
+ #adress{
+    position: absolute;
+    bottom: 635px;
+    margin-right: 60%;
+    width: 17%;
+ }
+ #res{
+    position: absolute;
+    bottom: 625px;
+    margin-left:  19%;
+ }
+ #chap{
+    position: absolute;
+    bottom: 490px;
+    width: 26%;
+    margin-left:  5%;
+ }
+ #educ{
+    margin-left:  35%;
+    position: absolute;
+    bottom: 487px;
+    color: white;
+ }
+ #ista{
+    position: absolute;
+    bottom: 454px;
+    margin-left:  5%;
+    color: white;
+ }
+ #his{
+    position: absolute;
+    bottom: 412px;
+    margin-left:  5%;
+    color: white;
+ }
+ #l2{
+    position: absolute;
+    bottom: 350px;
+    margin-left:  5%;
+    color: white;
+ }
+ #bac{
+    position: relative;
+    bottom: 22px;
+    margin-left:  5%;
+    color: white;
+    font-size: 18px;
+ }
+ #ref{
+    position: absolute;
+    bottom: 235px;
+    width: 16%;
+    margin-left:  5%;
+ }
+ #ref1{
+    position: absolute;
+    bottom: 223px;
+    margin-left:  25%;
+    color: white;
+    font-size: 18px;
+ }
+
+ #ref2{
+    position: absolute;
+    bottom: 120px;
+    margin-left:  5%;
+    color: white;
+ }
+ #propos{
+    width: 10%;
+ }
+ #info{
+    position: relative;
+    bottom: 4.5%;
+    margin-left:  13%;
+
+ }
+ #plus{
+    position: relative;
+    bottom: 4%;
+ }
+ #exp{
+    position: relative;
+    top: -4%;
+    width: 10%;
+ }
+ #ref3{
+    position: relative;
+    top: -8.5%;
+    margin-left:  12%;
+    font-size: 18px;
+ }
+ #ref4{
+    position: relative;
+    top: -8%;  
+ }
+#comp{
+    position: relative;
+    top: -8%;
+    width: 10%;
+}
+#cmp{
+    position: relative;
+    bottom: 12.5%;
+    margin-left:  13%;
+    font-size: 18px;
+}
+
+.competence{
+    position: relative;
+    bottom: 11%;
+}
+.bare1, .bare2{
+    width: 40px;
+    height: 8px;
+    position: relative;
+    bottom: 831px;
+    background-color: black;
+    
+    
+}
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* ----------------------------------------------------------------------------- */
 @media (max-width:795px) {
