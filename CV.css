@@ -425,6 +425,10 @@
     border-radius: 5px;
     width: 140px;
  } */
+  :root{
+    --bg-color:black;
+  }
+
 html , body{
     margin: 0;
     padding: 0;
@@ -467,7 +471,7 @@ html , body{
  #gauche2{
     width: 100%;
     height: 25%;
-    background-color: black;
+    background-color: var(--bg-color);
     position: absolute;
     border-radius: 0px 0px 100px 100px;
     display: flex;
@@ -486,7 +490,7 @@ html , body{
  }
  #lebas{
    height: 52%;
-    background-color: black;
+    background-color: var(--bg-color);
     border-radius: 100px 100px 0px 0px;
     display: flex;
     flex-direction: column;
@@ -518,23 +522,23 @@ html , body{
   
   margin-left: 20px; */
 
-    margin-left: -100px;
+    margin-right: 120px;
     position: absolute;
     bottom: 770px;
-    width: 25%;
+    width: 20%;
  }
  #inf{
     position: absolute;
-    bottom: 774px;
+    bottom: 768px;
     font-size: medium;
-    font-size: 13px;  
+    font-size: 15px;  
     margin-left: 60px;
 
  }
  #tel{
     position: absolute;
     bottom: 720px;
-    margin-right: 60%;
+    margin-right: 58%;
     width: 20%;
  }
  #num{
@@ -545,7 +549,7 @@ html , body{
  #mail{
     position: absolute;
     bottom: 680px;
-    margin-right: 60%;
+    margin-right: 58%;
  }
  #email{
     position: absolute;
@@ -556,7 +560,7 @@ html , body{
  #adress{
     position: absolute;
     bottom: 635px;
-    margin-right: 60%;
+    margin-right: 58%;
     width: 17%;
  }
  #res{
@@ -566,15 +570,16 @@ html , body{
  }
  #chap{
     position: absolute;
-    bottom: 490px;
-    width: 26%;
-    margin-left:  5%;
+    bottom: 494px;
+    width: 20%;
+    margin-left:  6%;
  }
  #educ{
-    margin-left:  35%;
+    margin-left:  30%;
     position: absolute;
     bottom: 487px;
     color: white;
+    font-size: 17px;
  }
  #ista{
     position: absolute;
@@ -663,17 +668,157 @@ html , body{
 
 .competence{
     position: relative;
-    bottom: 11%;
+    bottom: 13%;
+    display: flex;
+    align-items: center;
 }
 .bare1, .bare2{
-    width: 40px;
+    width: 70px;
     height: 8px;
-    position: relative;
-    bottom: 831px;
-    background-color: black;
+    background-color: var(--bg-color); 
     
-    
+} 
+
+.bare-competence{
+    display: flex;
+    margin-left: 11%;
 }
+ .bare2{
+    width: 15px;
+    background-color: #D9D9D9;
+} 
+
+.bare3, .bare4{
+    width: 60px;
+    height: 8px;
+    background-color: var(--bg-color); 
+    
+} 
+
+.bare-competence1{
+    display: flex;
+    margin-left: 6%;
+}
+ .bare4{
+    width: 25px;
+    background-color: #D9D9D9;
+} 
+
+.bare5, .bare6{
+    width: 50px;
+    height: 8px;
+    background-color: var(--bg-color); 
+    
+} 
+
+.bare-competence2{
+    display: flex;
+    margin-left: 12%;
+}
+ .bare6{
+    width: 35px;
+    background-color: #D9D9D9;
+} 
+#langue{
+    position: relative;
+    bottom: 130px;
+    width: 10%;
+}
+#lang{
+    position: relative;
+    bottom: 182px;
+    margin-left: 13%;
+    font-size: 18px;
+}
+.bare7, .bare8{
+    width: 43px;
+    height: 8px;
+    background-color: var(--bg-color); 
+    
+} 
+.bare-competence3{
+    display: flex;
+    margin-left: 6%;
+}
+
+.bare9, .bare10{
+    width: 25px;
+    height: 8px;
+    background-color:var(--bg-color); 
+    
+} 
+
+.bare-competence4{
+    display: flex;
+    margin-left: 7%;
+}
+ .bare10{
+    width: 60px;
+    background-color: #D9D9D9;
+} 
+.competenceF{
+    position: relative;
+    bottom: 185px;
+    display: flex;
+    align-items: center;
+}
+#loisir{
+    position: relative;
+    bottom: 175px;
+    width: 10%;
+}
+
+.points .point1{
+    width: 10px;
+    height: 8px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--bg-color);
+    position: relative;
+    bottom: 154px;
+}
+.points{
+    display: flex;
+    margin-left: 2%;
+}
+#mu{
+    position: relative;
+    bottom: 185px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.points .point2{
+    width: 10px;
+    height: 8px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--bg-color);
+    position: relative;
+    bottom: 170px;
+}
+.points{
+    display: flex;
+    margin-left: 2%;
+}
+#vo{
+    position: relative;
+    bottom: 203px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 15px;
+    margin:  10px;
+    
+ } 
+ 
+
+
 
  
 
