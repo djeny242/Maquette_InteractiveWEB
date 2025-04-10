@@ -927,6 +927,7 @@ html , body{
         #info {
             position: relative;
             margin-top: 4%;
+            font-size: 14px;
         }
         #ref2 {
             position: absolute;
@@ -1004,15 +1005,51 @@ html , body{
         }
         #lang {
             position: relative;
-            bottom: 175px;
-            margin-left: 13%;
-            font-size: 18px;
+            bottom: 167px;
+            margin-left: 16%;
+            font-size: 14px;
         }
         #cmp {
             position: relative;
+            bottom: 11%;
+            margin-left: 16%;
+            font-size: 14px;
+        }
+        #propos {
+            width: 11%;
+            position: relative;
+            bottom: 1%;
+        }
+        #exp {
+            position: relative;
+            top: -4%;
+            width: 12%;
+        }
+        #ref3 {
+            position: relative;
+            top: -7.5%;
+            margin-left: 14%;
+            font-size: 14px;
+        }
+        #comp {
+            position: relative;
+            top: -8%;
+            width: 12%;
+        }
+        .competence{
+            position: relative;
             bottom: 12%;
-            margin-left: 13%;
-            font-size: 18px;
+        }
+        #langue {
+            position: relative;
+            bottom: 130px;
+            width: 12%;
+        }
+        .competenceF {
+            position: relative;
+            bottom: 180px;
+            display: flex;
+            align-items: center;
         }
 
 

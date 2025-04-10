@@ -49,9 +49,32 @@
  }
 
 
- @media (max-width:800px) {
+ @media (max-width:414px) {
 
-    
+   .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      width: 90px;
+  }
+  
+h2 {
+   font-size: 27px;
+}
+p {
+   font-size: 17px;
+}
+.conteneur {
+   background-color: white;
+   padding: 20px;
+   text-align: center;
+   width: 375px;
+   height: 818px;
+   margin-left: 13%;
+}
     
  }
 
