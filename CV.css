@@ -878,37 +878,39 @@ html , body{
     @media (max-width:545px) {
         #pre {
             color: white;
-            font-size: 12px;
+            font-size: 9px;
+            position: relative;
+            bottom: 12px;
         }
         #p {
             color: white;
-            font-size: 12px;
+            font-size: 8px;
             position: relative;
-            top: -6%;
+            top: -8%;
         }
         #tel {
             position: absolute;
             bottom: 729px;
-            margin-right: 66%;
+            margin-right: 63%;
             width: 20%;
         }
         #num {
             position: absolute;
             bottom: 722px;
-            margin-left: 20%;
-            font-size: 13px;
+            margin-left: 24%;
+            font-size: 10px;
         }
         #mail {
             position: absolute;
             bottom: 692px;
-            margin-right: 65%;
+            margin-right: 62%;
             width: 20%;
         }
         #email {
             position: absolute;
-            bottom: 686px;
+            bottom: 688px;
             margin-left: 26%;
-            font-size: 12px;
+            font-size: 8px;
         }
         #adress {
             position: absolute;
@@ -918,84 +920,84 @@ html , body{
         }
         #res {
             position: absolute;
-            bottom: 641px;
-            margin-left: 19%;
-            font-size: 13px;
+            bottom: 642px;
+            margin-left: 20%;
+            font-size: 10px;
         }
         #info {
             position: relative;
-            margin-top: 5%;
+            margin-top: 4%;
         }
         #ref2 {
             position: absolute;
-            bottom: 243px;
+            bottom: 327px;
             margin-left: 7%;
             color: white;
-            font-size: 61%;
+            font-size: 45%;
         }
         #ref1 {
             position: absolute;
-            bottom: 312px;
+            bottom: 379px;
             margin-left: 27%;
             color: white;
-            font-size: 12px;
+            font-size: 8px;
         }
         #ref {
             position: absolute;
-            bottom: 321px;
+            bottom: 385px;
             width: 16%;
             margin-left: 6%;
         }
         #bac {
             position: relative;
-            bottom: 88px;
+            bottom: 140px;
             margin-left: 6%;
             color: white;
-            font-size: 12px;
+            font-size: 10px;
         }
         #l2 {
             position: absolute;
-            bottom: 400px;
+            bottom: 448px;
             margin-left: 6%;
             color: white;
-            font-size: 11px;
+            font-size: 9px;
         }
         #his {
             position: absolute;
-            bottom: 445px;
+            bottom: 485px;
             margin-left: 6%;
             color: white;
-            font-size: 11px;
+            font-size: 8px;
         }
         #ista {
             position: absolute;
-            bottom: 477px;
+            bottom: 512px;
             margin-left: 5%;
             color: white;
-            font-size: 10px;
+            font-size: 7px;
         }
         #educ {
-            margin-left: 32%;
+            margin-left: 38%;
             position: absolute;
-            bottom: 507px;
+            bottom: 532px;
             color: white;
-            font-size: 11px;
+            font-size: 7px;
         }
         #chap {
             position: absolute;
-            bottom: 509px;
+            bottom: 531px;
             width: 23%;
-            margin-left: 6%;
+            margin-left: 10%;
         }
         #inf {
             position: absolute;
-            bottom: 775px;
+            bottom: 774px;
             font-size: medium;
-            font-size: 10px;
-            margin-left: 26px;
+            font-size: 7px;
+            margin-left: 30px;
         }
         #cont {
-            margin-right: 94px;
+            margin-right: 58px;
             position: absolute;
             bottom: 775px;
             width: 21%;
@@ -1003,6 +1005,12 @@ html , body{
         #lang {
             position: relative;
             bottom: 175px;
+            margin-left: 13%;
+            font-size: 18px;
+        }
+        #cmp {
+            position: relative;
+            bottom: 12%;
             margin-left: 13%;
             font-size: 18px;
         }
